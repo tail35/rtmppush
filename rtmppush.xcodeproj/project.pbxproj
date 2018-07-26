@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		C9BD389A44D7572FECEA04CF /* Qt Preprocess */ = {
+		898F4B376E210A2C39F3D074 /* Qt Preprocess */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "qtxcodetest" */;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "rtmppush" */;
 			buildPhases = (
 				5E618435888B9D49F8540165 /* Qt Qmake */,
 				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
@@ -26,33 +26,20 @@
 		79C4CFABBB676EBA32C8D0C1 /* dummy.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2902ECC3A6F98ED7699923F4 /* dummy.cpp */; settings = {ATTRIBUTES = (); }; };
 		8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D4B32C2222F82AC56BADEB21 /* OpenGL.framework */; };
 		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
-		932CC1FF7AE11E25062A027D /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 92E560ECF747C029AE92163A /* main.cpp */; settings = {ATTRIBUTES = (); }; };
-		9AB2C14920A0018D0092947D /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 9AB2C14820A0018C0092947D /* QtWidgets.framework */; };
-		9AB2C14D20A028E20092947D /* glmain.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9AB2C14C20A028E20092947D /* glmain.cpp */; };
+		9A6F23AF210A4B230041FB38 /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 9A6F23AE210A4B230041FB38 /* QtWidgets.framework */; };
+		9A6F23B2210A4B6D0041FB38 /* glmain.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9A6F23B1210A4B6D0041FB38 /* glmain.cpp */; };
+		9DAD342349255989B70B963B /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7BADB896C110E93538C55A7E /* main.cpp */; settings = {ATTRIBUTES = (); }; };
 		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
 		CCDCF1B002D2DC4DC2C92B2B /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 46A52D79DDEDF5D906CB5D44 /* QtCore.framework */; };
 		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildRule section */
-		9A78A5FA20A1523800754DF2 /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.proxy.script;
-			filePatterns = "*.h";
-			fileType = pattern.proxy;
-			isEditable = 1;
-			outputFiles = (
-			);
-			script = "moc glmain.h -o mymoc_glmain.h";
-		};
-/* End PBXBuildRule section */
-
 /* Begin PBXContainerItemProxy section */
-		9AB2C147209FF8450092947D /* PBXContainerItemProxy */ = {
+		9A6F23AD210A4AFF0041FB38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C9BD389A44D7572FECEA04CF;
+			remoteGlobalIDString = 898F4B376E210A2C39F3D074;
 			remoteInfo = "Qt Preprocess";
 		};
 /* End PBXContainerItemProxy section */
@@ -71,19 +58,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2397C8E7782A21D91FE8E5A3 /* qtxcodetest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qtxcodetest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B94B39C8C25E76D2118D51 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = /Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/.qmake.stash; sourceTree = "<absolute>"; };
 		2902ECC3A6F98ED7699923F4 /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dummy.cpp; path = /usr/local/Cellar/qt/5.9.2/mkspecs/features/data/dummy.cpp; sourceTree = "<absolute>"; };
 		2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
 		46A52D79DDEDF5D906CB5D44 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /usr/local/Cellar/qt/5.9.2/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		53CA7318B5A9F634F2E62AE3 /* rtmppush.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = rtmppush.pro; path = /Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/test/rtmppush/rtmppush.pro; sourceTree = "<absolute>"; };
 		79B9F5D1DAB56D96EEBEC4AB /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /usr/local/Cellar/qt/5.9.2/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		7BADB896C110E93538C55A7E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/test/rtmppush/main.cpp; sourceTree = "<absolute>"; };
 		8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
-		92E560ECF747C029AE92163A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Volumes/mac2/work/toffstech/qtopengl/qtxcodetest/main.cpp; sourceTree = "<absolute>"; };
-		938B0E07A2796909B435CBE2 /* qtxcodetest.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = qtxcodetest.pro; path = /Volumes/mac2/work/toffstech/qtopengl/qtxcodetest/qtxcodetest.pro; sourceTree = "<absolute>"; };
-		9AB2C14820A0018C0092947D /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = ../../../../../../usr/local/Cellar/qt/5.9.2/lib/QtWidgets.framework; sourceTree = "<group>"; };
-		9AB2C14A20A009280092947D /* mainwindows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainwindows.h; sourceTree = "<group>"; };
-		9AB2C14B20A028E20092947D /* glmain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glmain.h; sourceTree = "<group>"; };
-		9AB2C14C20A028E20092947D /* glmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glmain.cpp; sourceTree = "<group>"; };
+		9A6F23AE210A4B230041FB38 /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = ../../../../../../../usr/local/Cellar/qt/5.9.2/lib/QtWidgets.framework; sourceTree = "<group>"; };
+		9A6F23B0210A4B6D0041FB38 /* glmain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glmain.h; sourceTree = "<group>"; };
+		9A6F23B1210A4B6D0041FB38 /* glmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glmain.cpp; sourceTree = "<group>"; };
 		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		C76C4BCA2A616EFEF60F755E /* rtmppush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rtmppush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AB2C14920A0018D0092947D /* QtWidgets.framework in Link Binary With Libraries */,
+				9A6F23AF210A4B230041FB38 /* QtWidgets.framework in Link Binary With Libraries */,
 				3BAD020DDA80CFE51A277BCF /* QtGui.framework in Link Binary With Libraries */,
 				CCDCF1B002D2DC4DC2C92B2B /* QtCore.framework in Link Binary With Libraries */,
 				A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */,
@@ -109,7 +96,7 @@
 		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				92E560ECF747C029AE92163A /* main.cpp */,
+				7BADB896C110E93538C55A7E /* main.cpp */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -117,7 +104,8 @@
 		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				938B0E07A2796909B435CBE2 /* qtxcodetest.pro */,
+				53CA7318B5A9F634F2E62AE3 /* rtmppush.pro */,
+				25B94B39C8C25E76D2118D51 /* .qmake.stash */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,7 +113,7 @@
 		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9AB2C14820A0018C0092947D /* QtWidgets.framework */,
+				9A6F23AE210A4B230041FB38 /* QtWidgets.framework */,
 				79B9F5D1DAB56D96EEBEC4AB /* QtGui.framework */,
 				46A52D79DDEDF5D906CB5D44 /* QtCore.framework */,
 				2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */,
@@ -144,25 +132,24 @@
 			name = "Sources [moc_predefs]";
 			sourceTree = "<group>";
 		};
-		E8C543AB96796ECAA2E65C57 /* qtxcodetest */ = {
+		E8C543AB96796ECAA2E65C57 /* rtmppush */ = {
 			isa = PBXGroup;
 			children = (
-				9AB2C14C20A028E20092947D /* glmain.cpp */,
-				9AB2C14B20A028E20092947D /* glmain.h */,
-				9AB2C14A20A009280092947D /* mainwindows.h */,
+				9A6F23B1210A4B6D0041FB38 /* glmain.cpp */,
+				9A6F23B0210A4B6D0041FB38 /* glmain.h */,
 				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
 				B8254625CFD509ED2A24A166 /* Sources [moc_predefs] */,
 				74B182DB50CB5611B5C1C297 /* Supporting Files */,
 				AF39DD055C3EF8226FBE929D /* Frameworks */,
 				FE0A091FDBFB3E9C31B7A1BD /* Products */,
 			);
-			name = qtxcodetest;
+			name = rtmppush;
 			sourceTree = "<group>";
 		};
 		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2397C8E7782A21D91FE8E5A3 /* qtxcodetest.app */,
+				C76C4BCA2A616EFEF60F755E /* rtmppush.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D20C9CEFB10BA6857D13E4BC /* qtxcodetest */ = {
+		A58A19C9A6A984545377B03F /* rtmppush */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "qtxcodetest" */;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "rtmppush" */;
 			buildPhases = (
 				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
 				D1C883685E82D5676953459A /* Link Binary With Libraries */,
@@ -180,14 +167,13 @@
 				99542592E9780B9225F24AA8 /* Embed Frameworks */,
 			);
 			buildRules = (
-				9A78A5FA20A1523800754DF2 /* PBXBuildRule */,
 			);
 			dependencies = (
-				3BAB22935D93929284C0712B /* PBXTargetDependency */,
+				E18F2D9310E599855431B9E6 /* PBXTargetDependency */,
 			);
-			name = qtxcodetest;
-			productName = qtxcodetest;
-			productReference = 2397C8E7782A21D91FE8E5A3 /* qtxcodetest.app */;
+			name = rtmppush;
+			productName = rtmppush;
+			productReference = C76C4BCA2A616EFEF60F755E /* rtmppush.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -197,28 +183,28 @@
 			isa = PBXProject;
 			attributes = {
 				TargetAttributes = {
-					C9BD389A44D7572FECEA04CF = {
+					898F4B376E210A2C39F3D074 = {
 						DevelopmentTeam = 82933WX2QP;
 					};
-					D20C9CEFB10BA6857D13E4BC = {
+					A58A19C9A6A984545377B03F = {
 						DevelopmentTeam = 82933WX2QP;
 					};
 				};
 			};
-			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "qtxcodetest" */;
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "rtmppush" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E8C543AB96796ECAA2E65C57 /* qtxcodetest */;
+			mainGroup = E8C543AB96796ECAA2E65C57 /* rtmppush */;
 			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D20C9CEFB10BA6857D13E4BC /* qtxcodetest */,
-				C9BD389A44D7572FECEA04CF /* Qt Preprocess */,
+				A58A19C9A6A984545377B03F /* rtmppush */,
+				898F4B376E210A2C39F3D074 /* Qt Preprocess */,
 			);
 		};
 /* End PBXProject section */
@@ -243,7 +229,7 @@
 			name = "Qt Qmake";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Volumes/mac2/work/toffstech/qtopengl/qtxcodetest/ -f qtxcodetest.xcodeproj/qt_makeqmake.mak";
+			shellScript = "make -C /Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/test/rtmppush/ -f rtmppush.xcodeproj/qt_makeqmake.mak";
 			showEnvVarsInLog = 0;
 		};
 		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
@@ -254,7 +240,7 @@
 			name = "Qt Preprocessors";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Volumes/mac2/work/toffstech/qtopengl/qtxcodetest/ -f qtxcodetest.xcodeproj/qt_preprocess.mak";
+			shellScript = "make -C /Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/test/rtmppush/ -f rtmppush.xcodeproj/qt_preprocess.mak";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -264,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				932CC1FF7AE11E25062A027D /* main.cpp in Compile Sources */,
+				9DAD342349255989B70B963B /* main.cpp in Compile Sources */,
 				79C4CFABBB676EBA32C8D0C1 /* dummy.cpp in Compile Sources */,
-				9AB2C14D20A028E20092947D /* glmain.cpp in Compile Sources */,
+				9A6F23B2210A4B6D0041FB38 /* glmain.cpp in Compile Sources */,
 			);
 			name = "Compile Sources";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,10 +260,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3BAB22935D93929284C0712B /* PBXTargetDependency */ = {
+		E18F2D9310E599855431B9E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C9BD389A44D7572FECEA04CF /* Qt Preprocess */;
-			targetProxy = 9AB2C147209FF8450092947D /* PBXContainerItemProxy */;
+			target = 898F4B376E210A2C39F3D074 /* Qt Preprocess */;
+			targetProxy = 9A6F23AD210A4AFF0041FB38 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -347,10 +333,10 @@
 					"-Wl,-rpath,@executable_path/Frameworks",
 					"-F/usr/local/Cellar/qt/5.9.2/lib",
 				);
-				PRODUCT_NAME = qtxcodetest;
+				PRODUCT_NAME = rtmppush;
 				QT_LIBRARY_SUFFIX = "";
 				SDKROOT = macosx;
-				SYMROOT = /Volumes/mac2/work/toffstech/qtopengl/qtxcodetest/;
+				SYMROOT = /Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/test/rtmppush/;
 			};
 			name = Release;
 		};
@@ -421,10 +407,10 @@
 					"-Wl,-rpath,@executable_path/Frameworks",
 					"-F/usr/local/Cellar/qt/5.9.2/lib",
 				);
-				PRODUCT_NAME = qtxcodetest;
+				PRODUCT_NAME = rtmppush;
 				QT_LIBRARY_SUFFIX = "";
 				SDKROOT = macosx;
-				SYMROOT = /Volumes/mac2/work/toffstech/qtopengl/qtxcodetest/;
+				SYMROOT = /Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/test/rtmppush/;
 			};
 			name = Debug;
 		};
@@ -440,15 +426,17 @@
 				HEADER_SEARCH_PATHS = (
 					.,
 					.,
-					/usr/local/Cellar/qt/5.9.2/lib/QtGui.framework/Headers,
-					/usr/local/Cellar/qt/5.9.2/lib/QtCore.framework/Headers,
+					"/usr/local/Cellar/qt/5.9.2/include/**",
 					.,
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AGL.framework/Headers,
 					"/usr/local/Cellar/qt/5.9.2/mkspecs/macx-clang",
-					/usr/local/Cellar/qt/5.9.2/lib/QtWidgets.framework/Headers,
 				);
-				PRODUCT_NAME = qtxcodetest;
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/5.9.2/lib/**",
+					/System/Library/Frameworks/,
+				);
+				PRODUCT_NAME = rtmppush;
 				QT_LIBRARY_SUFFIX = "";
 				SDKROOT = macosx;
 			};
@@ -467,16 +455,18 @@
 				HEADER_SEARCH_PATHS = (
 					.,
 					.,
-					/usr/local/Cellar/qt/5.9.2/lib/QtGui.framework/Headers,
-					/usr/local/Cellar/qt/5.9.2/lib/QtCore.framework/Headers,
+					"/usr/local/Cellar/qt/5.9.2/include/**",
 					.,
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AGL.framework/Headers,
 					"/usr/local/Cellar/qt/5.9.2/mkspecs/macx-clang",
-					/usr/local/Cellar/qt/5.9.2/lib/QtWidgets.framework/Headers,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/5.9.2/lib/**",
+					/System/Library/Frameworks/,
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = qtxcodetest;
+				PRODUCT_NAME = rtmppush;
 				QT_LIBRARY_SUFFIX = "";
 				SDKROOT = macosx;
 			};
@@ -485,7 +475,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "qtxcodetest" */ = {
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "rtmppush" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77418F46922677BB04ED38DD /* Debug */,
@@ -494,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "qtxcodetest" */ = {
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "rtmppush" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AA6C32AC930069E80220CF1 /* Debug */,

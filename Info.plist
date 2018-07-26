@@ -13,7 +13,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>qtxcodetest</string>
+	<string>rtmppush</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.17media.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>NOTE</key>

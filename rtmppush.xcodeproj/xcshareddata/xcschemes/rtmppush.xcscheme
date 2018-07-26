@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D20C9CEFB10BA6857D13E4BC"
-               BuildableName = "qtxcodetest.app"
-               BlueprintName = "qtxcodetest"
-               ReferencedContainer = "container:qtxcodetest.xcodeproj">
+               BlueprintIdentifier = "A58A19C9A6A984545377B03F"
+               BuildableName = "rtmppush.app"
+               BlueprintName = "rtmppush"
+               ReferencedContainer = "container:rtmppush.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,17 +36,17 @@
                BlueprintIdentifier = "9E73BA301EF4580BE706E2EC"
                BuildableName = "Qt Test"
                BlueprintName = "Qt Test"
-               ReferencedContainer = "container:qtxcodetest.xcodeproj">
+               ReferencedContainer = "container:rtmppush.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D20C9CEFB10BA6857D13E4BC"
-            BuildableName = "qtxcodetest.app"
-            BlueprintName = "qtxcodetest"
-            ReferencedContainer = "container:qtxcodetest.xcodeproj">
+            BlueprintIdentifier = "A58A19C9A6A984545377B03F"
+            BuildableName = "rtmppush.app"
+            BlueprintName = "rtmppush"
+            ReferencedContainer = "container:rtmppush.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
@@ -73,10 +73,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D20C9CEFB10BA6857D13E4BC"
-            BuildableName = "qtxcodetest.app"
-            BlueprintName = "qtxcodetest"
-            ReferencedContainer = "container:qtxcodetest.xcodeproj">
+            BlueprintIdentifier = "A58A19C9A6A984545377B03F"
+            BuildableName = "rtmppush.app"
+            BlueprintName = "rtmppush"
+            ReferencedContainer = "container:rtmppush.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -99,10 +99,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D20C9CEFB10BA6857D13E4BC"
-            BuildableName = "qtxcodetest.app"
-            BlueprintName = "qtxcodetest"
-            ReferencedContainer = "container:qtxcodetest.xcodeproj">
+            BlueprintIdentifier = "A58A19C9A6A984545377B03F"
+            BuildableName = "rtmppush.app"
+            BlueprintName = "rtmppush"
+            ReferencedContainer = "container:rtmppush.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
