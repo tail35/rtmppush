@@ -28,7 +28,7 @@
 		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
 		9A6F23AF210A4B230041FB38 /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 9A6F23AE210A4B230041FB38 /* QtWidgets.framework */; };
 		9A6F23B2210A4B6D0041FB38 /* glmain.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9A6F23B1210A4B6D0041FB38 /* glmain.cpp */; };
-		9DAD342349255989B70B963B /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7BADB896C110E93538C55A7E /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		9AA9E360210A6E460022AB27 /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9AA9E35F210A6E460022AB27 /* main.cpp */; };
 		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
 		CCDCF1B002D2DC4DC2C92B2B /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 46A52D79DDEDF5D906CB5D44 /* QtCore.framework */; };
 		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
@@ -64,11 +64,11 @@
 		46A52D79DDEDF5D906CB5D44 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /usr/local/Cellar/qt/5.9.2/lib/QtCore.framework; sourceTree = "<absolute>"; };
 		53CA7318B5A9F634F2E62AE3 /* rtmppush.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = rtmppush.pro; path = /Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/test/rtmppush/rtmppush.pro; sourceTree = "<absolute>"; };
 		79B9F5D1DAB56D96EEBEC4AB /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /usr/local/Cellar/qt/5.9.2/lib/QtGui.framework; sourceTree = "<absolute>"; };
-		7BADB896C110E93538C55A7E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/test/rtmppush/main.cpp; sourceTree = "<absolute>"; };
 		8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
 		9A6F23AE210A4B230041FB38 /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = ../../../../../../../usr/local/Cellar/qt/5.9.2/lib/QtWidgets.framework; sourceTree = "<group>"; };
 		9A6F23B0210A4B6D0041FB38 /* glmain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glmain.h; sourceTree = "<group>"; };
 		9A6F23B1210A4B6D0041FB38 /* glmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glmain.cpp; sourceTree = "<group>"; };
+		9AA9E35F210A6E460022AB27 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		C76C4BCA2A616EFEF60F755E /* rtmppush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rtmppush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
@@ -96,7 +96,7 @@
 		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7BADB896C110E93538C55A7E /* main.cpp */,
+				9AA9E35F210A6E460022AB27 /* main.cpp */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -229,7 +229,7 @@
 			name = "Qt Qmake";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/test/rtmppush/ -f rtmppush.xcodeproj/qt_makeqmake.mak";
+			shellScript = "make -C $SRCROOT -f rtmppush.xcodeproj/qt_makeqmake.mak";
 			showEnvVarsInLog = 0;
 		};
 		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
@@ -240,7 +240,7 @@
 			name = "Qt Preprocessors";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/test/rtmppush/ -f rtmppush.xcodeproj/qt_preprocess.mak";
+			shellScript = "make -C $SRCROOT -f rtmppush.xcodeproj/qt_preprocess.mak";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DAD342349255989B70B963B /* main.cpp in Compile Sources */,
 				79C4CFABBB676EBA32C8D0C1 /* dummy.cpp in Compile Sources */,
 				9A6F23B2210A4B6D0041FB38 /* glmain.cpp in Compile Sources */,
+				9AA9E360210A6E460022AB27 /* main.cpp in Compile Sources */,
 			);
 			name = "Compile Sources";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +422,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = 82933WX2QP;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/Cellar/qt/5.9.2/lib;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				HEADER_SEARCH_PATHS = (
 					.,
@@ -450,6 +451,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 82933WX2QP;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/Cellar/qt/5.9.2/lib;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
