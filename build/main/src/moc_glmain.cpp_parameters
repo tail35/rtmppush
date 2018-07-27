@@ -1,0 +1,7 @@
+-I/Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/drawyuv
+-I/Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/drawyuv/main/include
+-I/Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/drawyuv/main
+-I/Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/drawyuv/build/main
+-o
+/Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/drawyuv/build/main/src/moc_glmain.cpp
+/Volumes/mac2/work/ragingfire_agnel_tech/openglstudy/drawyuv/main/src/glmain.h
