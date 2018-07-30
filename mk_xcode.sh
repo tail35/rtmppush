@@ -2,4 +2,6 @@
 rm -rf build
 mkdir build
 cd build
-cmake -G "Xcode" ..
+mkdir xcode
+cd xcode
+cmake -G "Xcode" ../../

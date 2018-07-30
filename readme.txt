@@ -1,6 +1,11 @@
+1.如果有界面改动,这样是为了编译界面
+./mk_compile.sh
+2.cd build,打开xcode 
+工程选择目标工程
+编辑或者编译代码。
 
-
-
+-------------
+note:
 ./mk_compile.sh 将在build 目录下编译出debug qt 兼容 object c程序。
 ./mk_xcode.sh 将在build 目录下生成一个xcode工程。
 
