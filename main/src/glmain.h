@@ -11,7 +11,7 @@ public:
     virtual ~GlMainWindow();
     void Init();
 public slots:
-//    void my(){};
+    void ClickButton();
 private:
     Ui::MainWindow ui;
 };
